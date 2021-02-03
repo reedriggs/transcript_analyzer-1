@@ -3,7 +3,7 @@
 overview/plan:
                               1
 ############################################################
-# - Videos from YouTube, Vimeo, etc. are added to TILD
+- Videos from YouTube, Vimeo, etc. are added to TILD
 # - Transcripts are added, matching each video
 #    - Manually via copy, paste, etc. at first
 #       - Teacher’s own acquaintances help add transcriptions
