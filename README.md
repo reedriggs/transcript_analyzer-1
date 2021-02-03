@@ -1,27 +1,23 @@
 # transcript_analyzer-1
 
 overview/plan:
-                              1
-############################################################
+
+1
 - Videos from YouTube, Vimeo, etc. are added to TILD
 - Transcripts are added, matching each video
    - Manually via copy, paste, etc. at first
       - Teacher’s own acquaintances help add transcriptions
    - Automatic when possible later
 - Time stamps match video to transcriptions when possible
-############################################################
-                              ⇣
-                              2
-############################################################
+
+2
 - Transcript text is automatically retrieved via Python
 - Transcript text is made readable in Python
    - csv file?
    - list? dictionary?
    - SQL?
-############################################################
-                              ⇣
-                              3
-############################################################
+
+3
 - Python-ready text is analyzed for learner experience
    - L2 input from teacher & others in environment
    - L2 production from learners
