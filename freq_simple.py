@@ -49,8 +49,10 @@ tokenized_list_2 = tokenize(headers, url2)
 freq_simple_1 = freq_simple(tokenized_list_1)
 freq_simple_2 = freq_simple(tokenized_list_2)
 search_term = "a"
+term_freq = freq_simple_1[search_term]
+
 print(freq_simple_1)
 print("\n" + "\n" + "\n")
 print(freq_simple_2)
 print("\n" + "\n" + "\n")
-print(f'The search term "{search_term}" was found {freq_simple_1[search_term]} times.')
+print(f'The search term "{search_term}" was found {term_freq} times.')
