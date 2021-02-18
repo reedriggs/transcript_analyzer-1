@@ -120,7 +120,13 @@ corpus_freq_2 = corpus_freq(lemmatized_Sp_list_2)
 #print(corpus_freq_2)
 #print(lemmatized_list_2)
 
-#use the context_freq() function to search for collocates of "we" (with 5 words of left context and 5 words of right context)
-we_freqs = context_freq(tokenized_list_1,["I"],5,5)
-print(we_freqs["target_freq"]) #print the "target_freq" dictionary
-print(we_freqs["left_freq"]) #print the "left_freq" dictionary
+#use the context_freq() function to search for collocates of "I" and "we" (with 5 words of left context and 5 words of right context)
+I_freqs = context_freq(tokenized_list_1,["I"],5,5)
+print(I_freqs["target_freq"]) #print the "target_freq" dictionary
+print("\n|")
+print(I_freqs["left_freq"]) #print the "left_freq" dictionary
+print("\n|" + "\n|")
+my_freqs = context_freq(tokenized_list_1,["my"],5,5)
+print(my_freqs["target_freq"]) #print the "target_freq" dictionary
+print("\n|")
+print(my_freqs["left_freq"]) #print the "left_freq" dictionary
